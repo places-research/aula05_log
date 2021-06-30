@@ -1,9 +1,9 @@
 ---
 title: "Logística"
-subtitle: "Encontro Síncrono 05"
+subtitle: "Encontros Síncronos 05 e 06"
 author: 
   - <br></br>Renata Oliveira
-date: '30/06/2021'
+date: '30/06/2021 e 07/07/2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -97,7 +97,9 @@ xaringanExtra::use_extra_styles(
 
 **Grupo 4:** Ingrid, Agatha e Luiza
 
-**Grupo 5:** Izabela,   
+**Grupo 5:** Izabela, Gabrielle,  ??  
+
+??? 
 
 ]
 ]
@@ -130,335 +132,492 @@ class: center, middle
 
 ---
 
-class: inverse, middle
+# Cidades
 
-# Exemplos de desafios reais e contemporâneos da gestão da cadeia de suprimentos
+## Definição 
 
----
-
-"O CEO da Cargo X, Federico Vega, conta que todo o processo é conduzido de forma **online**, desde a **contratação** ao **monitoramento** dos fretes. “O uso de **machine learning** aliado ao nosso **Big Data**, que possui informações de **rotas** e mais de **200 mil caminhoneiros cadastrados**, possibilita que tenhamos **ganhos significativos de eficiência** e **confiabilidade** para gerar o **match** entre **oferta** e **demanda**”, afirma. (...)
-
-Segundo Federico, atualmente, a Cargo X opera mais de **6 mil fretes por mês** com um **time de menos 150 pessoas** dedicados a operação. “**Não possuímos um único caminhão próprio**, fato impossível de se realizar sem o uso de tecnologia”, destaca o executivo.
-
-No último trimestre, a **taxa de sinistro da empresa** foi **menor que 2%**, o que Federico atribui ao rigoroso processo de **gestão de risco** e **monitoramento 100% online**."
-
-[Fonte](https://noticias.gs1br.org/logistica-4-0-tendencias-e-desafios-para-melhorar-a-eficiencia/)
++ A urbanização ocorre tanto pela mudança da população rural para núcleos urbanos como com o crescimento vegetativo da população urbana. 
++ Este processo teve início na primeira metade do século XIX.
++ Em 1800, apenas quatro por cento da população mundial vivia em cidades. 
++ Em 2000, esse número havia crescido para 50%. Hoje, há mais pessoas morando em cidades maiores (KAPLAN et al., 2004).
++ 54 % da população mundial vive em áreas urbanas (UN, 2014)
++ 2050 – 66% de população urbana
 
 ---
+
+# Urbanização
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/greve2018.png")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/greve2018b.png")
-```
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/greve2018c.png")
-```
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="120%"}
-knitr::include_graphics("./img/greve.png")
+knitr::include_graphics("img/urb.jpg")
 ```
 
 
 ---
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="120%"}
-knitr::include_graphics("./img/vac2.png")
+## Estrutura urbana global
+
++ As cidades pequenas são numerosas e muitas crescem rapidamente.
++ Globalmente, cerca de metade dos 3,9 bilhões de habitantes reside em pequenas cidades com até 500 mil habitantes, enquanto que apenas um em oito vive nas 28 megacidades com 10 milhões de habitantes ou mais. 
++ África e a Ásia são o lar de aproximadamente 90 por cento da população rural mundial. 
++ A Índia tem o maior número de população rural com 857 milhões, seguida da China com 635 milhões.
+
+---
+## Logística Urbana
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("img/veiculo.png")
+```
+---
+
+## Logística Urbana
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="75%"}
+knitr::include_graphics("img/est_urb.png")
 ```
 
 ---
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="120%"}
-knitr::include_graphics("./img/vac1.png")
-```
+# Definições
+
+É o processo de **otimização**, de **forma integrada**, das atividades relacionadas à logística que são realizadas em áreas urbanas. É abordada sob a ótica da **sustentabilidade**, com focos em atributos **econômicos, ambientais e sociais**. Este processo considera fatores como tráfego, congestionamento e consumo de energia. 
 
 
 ---
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/cam.png")
-```
+# Definições
 
-[Fonte](https://www.cnnbrasil.com.br/business/2021/01/26/chamado-de-greve-dos-caminhoneiros-ganha-apoio-de-confederacao-cnttl)
+O conceito de **City Logistics** pressupõe a transferência de cargas para **veículos menores** com operação urbana integrada por destino e **uso intensivo da tecnologia** tanto veicular quanto nos terminais, visando a informações em tempo real para roteirização dinâmica, rastreamento e agilização tanto da carga e descarga como dos fluxos de informações e documentos. Todos estes esforços são voltados para resolver o problema de percorrer as últimas distâncias com baixos custos, pois é nesta fase final das operações que os custos logísticos crescem exponencialmente. É o chamado, no exterior, problema da **última milha** (last mile problem).
 
 ---
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/cam2.png")
-```
+# Definições
+
+A **última milha** representa, em média, **28% do custo total de transporte** e representa aproximadamente **30% do volume de tráfego** nas grandes cidades. É responsável também por **20% a 35% das emissões de gases de efeito estufa**, além de representar entre **15% e 20% dos acidentes** gerados nas redes viárias urbanas. Portanto, a última milha se configura como o grande **desafio** das organizações no que tange a otimização da gestão da cadeia de suprimentos.
 
 ---
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/cam3.png")
-```
+# Importância da carga urbana
 
----
++ Importância no modo de vida da população
++ Manutenção e conservação das atividades industriais e comerciais
++ Contribui para a competitividade industrial
++ Acarreta efeitos nos custos dos produtos consumidos pela população
++ Impacta o meio ambiente (consumo de energia, poluição, ruído, intrusão visual, 
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/cam4.png")
-```
-
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike.jpg")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike1.jpg")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike3.jpg")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike4.jpg")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike5.jpg")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike6.jpg")
-```
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/bike7.jpg")
-```
-
----
-
-
-## Enquanto isso....
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/auto.png")
-```
-
-[Fonte](https://medium.com/@recogni/autonomous-vehicles-and-last-mile-delivery-2249bb16fdd7)
-
----
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("./img/drone.png")
-```
-
-[Fonte](https://blogs.sw.siemens.com/thought-leadership/2020/04/16/autonomous-last-mile-delivery/)
-
----
-<iframe width="900" height="506" src="https://www.youtube.com/embed/dagjQW_jgtE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-<iframe width="900" height="506" src="https://www.youtube.com/embed/WKf-VDAHZi8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-<iframe width="894" height="503" src="https://www.youtube.com/embed/NrmMk1Myrxc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-
-class: middle, inverse
-
-# Desempenho logístico
-
----
-
-## KPIs
-
-KPIs (Key Performance Indicators) - um indicador de desempenho deve demonstrar claramente que ação deve ser tomada e quando deve ser tomada.
-
-- Os indicadores não podem ser individuais. 
-- Atenção para medidas conflitantes, que podem acentuar os problemas das áreas ao invés de resolvê-los.
-
-#### Quatro elementos fundamentais para medidas de desempenho
-- **Parceria** com fornecedores, clientes e pessoal interno
-- **Transferência** de poder para as pessoas das pontas
-- **Integração** das medidas, relatórios e melhoria de **desempenho**
-- **Conexão** das medidas de desempenho à **estratégia corporativa**
-
----
-
-## O que medir?
-
-### Responsividade x eficiência
-
-- Eficiência - uso adequado de recursos   
-- Responsividade mensurada por indicadores do processo
-- Responsividade conforme percepção dos clientes
-
----
-
-### Instalações
-
-**Métricas relacionadas à instalação**
-
-.midi[
-- Capacidade   
-- Utilização   
-- Tempo ocioso de processamento/preparação/parada   
-- Custo de produção por unidade    
-- Perda de qualidade   
-- Tempo de fluxo/ciclo teórico de produção   
-- Tempo de fluxo/ciclo médio real   
-- Eficiência de tempo de fluxo   
-- Variedade de produtos   
-- Contribuição de volume dos 20% maiores SKUs e clientes    
-- Tamanho médio de lote de produção   
-- Nível de serviço de produção   
+.center[
+.large[
+Busca de equilíbrio entre a regulamentação pública, os interesses privados e as necessidades da sociedade
+]
 ]
 
 ---
 
-### Estoque
+## Logística Urbana e uso do solo
 
-**Métricas relacionadas a estoque**
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="75%"}
+knitr::include_graphics("img/log_ur.png")
+``` 
 
-.midi[
-- Tempo cíclico C2C
-- Estoque médio 
-- Giro de estoque 
-- Produtos com mais de um número específico de dias de estoque
-- Tamanho médio de lote de reposição
-- Estoque de segurança médio
-- Estoque sazonal
-- Taxa de atendimento
-- Fração de tempo sem estoque
-- Estoque obsoleto
+---
+
+## Stakeholders
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="70%"}
+knitr::include_graphics("img/stake.png")
+``` 
+
+---
+
+
+### Desafios urbanos na movimentação de mercadorias
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+knitr::include_graphics("img/desafios.png")
+``` 
+
+---
+
+### Fluxos Logísticos na cidade
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/flow.png")
+``` 
+
+---
+
+## Desafios atuais
+
++ Aumento do número de veículos de diferentes tipos
++ Congestionamentos 
++ Aumento dos custos logísticos (last mile representa 40% dos custos totais de transporte)
++ Aumento da poluição (21% das emissões de CO2)
++ Aumento dos processos produtivos baseados em um sistema just in time
++ Crescimento significativo do comércio eletrônico, com elevados volumes de entregas em domicílio.
++ Disrupção pela digitalização e pela pandemia
++ Espraiamento logístico
++ Entregas instantâneas
+
+.center[
+.large[
+**Queda na qualidade de vida das pessoas**
+]
 ]
 
 ---
 
-### Transporte
+# Soluções exploradas
 
-**Métricas relacionadas a transporte**
++ volumes menores, drones, armazéns móveis
 
-.midi[
-- Custo médio de transporte de recebimento   
-- Tamanho médio de recebimento   
-- Custo médio de transporte de recebimento por embarque   
-- Custo médio de transporte do embarque   
-- Tamanho médio de embarque   
-- Custo médio de transporte de envio por embarque   
-- Fração transportada por modo   
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/9.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/10.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/12.jpg")
+``` 
+
+---
+
+<iframe width="1068" height="601" src="https://www.youtube.com/embed/wrcC-_hRtYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/22.png")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/25.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/26.png")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/27.png")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/29.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/13.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/14.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/15.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/16.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/17.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/18.jpg")
+``` 
+
+
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/19.jpg")
+``` 
+
+
+---
+
+# Soluções exploradas
+
++ volumes menores, drones, armazéns móveis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/20.jpg")
+``` 
+
+
+---
+
+# Soluções exploradas
+
++ Microhubs
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/micro.png")
+``` 
+
+---
+
+# Soluções exploradas
+
++ Operações de carga e descarga
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/ESTACIONAMENTO ROTATIVO_CARGA E DESCARGA.png")
+``` 
+
+---
+
+# Soluções exploradas
+
++ Muitos dados e pouca informação
+
+[E-commerce mobilities observatory](https://www.ecommercemobilities.com/)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/big-tech.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ Fiscalização x Gestão
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/Veículo-fiscalização-rua-assis-004-1-1024x681.jpg")
+``` 
+
+---
+
+# Soluções exploradas
+
++ Pickup points
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/4.jpg")
+``` 
+
+---
+
+
+# Soluções exploradas
+
++ Pickup points
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/pickup-points.jpeg")
+``` 
+
+---
+
+
+# Soluções exploradas
+
++ Pickup points
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/pic.png")
+``` 
+
+
+---
+
+# Soluções exploradas
+
++ Entrega ativa
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
+knitr::include_graphics("img/shutterstock_159273458.jpg")
+``` 
+
+
+---
+
+# Soluções exploradas
+
++ Entrega colaborativa e crowdshipping
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/21.png")
+``` 
+
+
+---
+
+# Soluções exploradas
+
++ Produção e consumo locais
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="60%"}
+knitr::include_graphics("img/autow.png")
+``` 
+
+
+---
+
+<iframe width="1068" height="601" src="https://www.youtube.com/embed/HZF50kS2WyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# ALICE + Living LABS
+
+<iframe width="1068" height="601" src="https://www.youtube.com/embed/K7QS1t1tRWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---
+
+# Physical Internet
+
+In logistics, the Physical Internet is an open global logistics system founded on physical, digital, and operational interconnectivity, through encapsulation, interfaces and protocols.[1] The Physical Internet is intended to replace current logistical models. The project currently has funding from the National Science Foundation as well as contributions from MHIA and CICMHE.
+
+The Physical Internet Initiative's manifesto is "Transforming the way physical objects are handled, moved, stored, realized, supplied and used, aiming towards global logistics movments, shopping and sustainability."It attempts to achieve this by applying concepts from internet data transfer to real-world shipping processes.
+
+
+---
+
+# E-cargo bikes
+
+<iframe width="1068" height="601" src="https://www.youtube.com/embed/TWg1qpFhENU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<iframe width="1068" height="601" src="https://www.youtube.com/embed/oGgDelr8uls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Logística reversa, logística verde e logística sustentável
+
+Indústria  |                                 Retornos (%)
+-----------|---------------------------------------------
+Revistas	|	                                   50
+Livros - Editora	     |                 20 - 30
+Livros - Distribuidora      |                10 - 20
+Vendas por catálogo    |                  18 - 35
+CD-ROMS          |                            18 - 25	
+Computadores         |                       10 - 20
+Impressoras           |                           4 - 8
+Automotiva (partes)     |                      4 - 6
+
+---
+
+# Digital twins
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/how-digital-twins-enable-intelligent-cities-img01.png")
+``` 
+
+.large[
+.center[
+**Cidades devem ser inteligentes ou humanas?**
+]
 ]
 
 ---
 
-### Informação
+# Reorganização das atividades
 
-**Métricas relacionadas à informação**
-
-.midi[
-- Horizonte de previsão   
-- Frequência de atualização   
-- Erro de previsão    
-- Fatores sazonais   
-- Fatores sazonais   
-- Razão entre variabilidade da demanda e variabilidade do pedido   
+.small[
+Pontos|	Entrega|	Atividade
+------|--------|-----------
+10| 10/02 | Estudos Autônomos 1 (entregue)
+20|	20/02	| Projeto incremental 1 (entregue)
+10| 16/03 | Estudos Autônomos 2 (entregue)
+10| 23/03 | Estudos Autônomos 3 (entregue)
+10| 30/03 | Estudos Autônomos 4 (entregue)
+10| 07/04 | Estudos Autônomos 5 (entregue)
+20|	14/04 |	Projeto incremental 2 (postado)
+10| 14/04 | Engajamento
+TOTAL:| |	100 pontos
 ]
 
----
-
-### Sourcing
-
-**Métricas relacionadas a Sourcing**
-
-.midi[
-- Dias pendentes de contas a pagar  
-- Preço médio de compra  
-- Faixa de preço de compra   
-- Quantidade média de compra   
-- Qualidade do fornecimento   
-- Tempo de execução de fornecimento   
-- Percentagem de entregas de imediato   
-- Confiabilidade do fornecedor   
-]
 
 ---
-
-### Precificação
-
-**Métricas relacionadas à precificação**
-
-.midi[
-- Margem de lucro   
-- Dias de vendas pendentes   
-- Custo fixo incremental por pedido   
-- Custo variável incremental por unidade   
-- Preço médio de venda   
-- Tamanho médio de pedido   
-- Faixa de preço de venda   
-- Faixa de vendas periódicas   
-]
-
----
-
-class: center, middle
-
-## Serviço ao cliente
-
----
-
-## Serviço ao cliente
-
-Todas as atividades necessárias para receber, aceitar, processar, enviar e faturar os pedidos dos clientes, controlar para que as atividades possam ser executadas em conformidade com o planejamento e assegurar-se que o cliente está satisfeito. O objetivo do serviço ao cliente é **CRIAR VALOR** para o cliente.
-
-Os diferenciais competitivos nas operações logísticas são:
-
-- Vantagem em CUSTO    
-- Vantagem em VALOR
-
-
----
-
-### Redução de custo
-- Realizando uma boa gestão de estoques   
-- Otimizando processos   
-- Melhorando a produtividade   
-- Introduzindo novas tecnologias   
-- Otimizando recursos   
-- Através da negociação com fornecedores   
-- Utilizando modais alternativos   
-- Otimizando utilização de espaços / transporte   
-
----
-
-### Agregação de valor
-- Disponibilizando o produto no momento desejado   
-- Fazendo entregas rápidas   
-- Sendo consistente nas entregas ao cliente   
-- Aumentando a frequência de entrega   
-- Tornando fácil o processo de compras   
-- Disponibilizando informações confiáveis em tempo real   
-- Oferecendo flexibilidade; local entrega, horário, embalagem, serviços especiais   
-- Corrigindo rapidamente qualquer erro, ou reagindo a eventos não esperados   
-
----
-
-> #Não há nenhum valor no produto ou serviço até estar nas mãos do cliente ou consumidor.
 
 ---
 
