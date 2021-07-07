@@ -91,11 +91,11 @@ xaringanExtra::use_extra_styles(
 
 **Grupo 1:** Caíque Alves França, Diego de Freitas Goes e Silva, Igor Felipe Eduardo Ferreira, Luiz Pedro Xavier Carvalho - Impacto da digitalização nos transportes
 
-**Grupo 2:** Vitor Abrantes, Ana Luiza Cuha, Alexandre Roberto, Gustavo Martins - 
+**Grupo 2:** Vitor Abrantes, Ana Luiza Cunha, Alexandre Roberto, Gustavo Martins - 
 
 **Grupo 3:** Luis, Joyce e Warlley, André e Gabriel - AMBEV
 
-**Grupo 4:** Ingrid, Agatha e Luiza - 
+**Grupo 4:** Ingrid, Agatha e Luiza - Amazon
 
 **Grupo 5:** Izabela, Gabrielle, Izabela, Maurício, Raphael e Rosely - Varejo e-commerce
 
@@ -108,8 +108,8 @@ xaringanExtra::use_extra_styles(
 - Mudança dos padrões de consumo
 - Logística reversa
 - Substituição do ser humano por máquinas nas atividades de transportes
-- 
-
+- AI na etapa do pedido - Bot de atendimento por telegram para processamento de pedidos/Bot para fornecedores
+- Amazon - integração de parceiros
 
 ---
 class: center, middle
