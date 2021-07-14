@@ -281,8 +281,8 @@ class: middle, inverse
 ---
 
 ## Objetivos
-### ALICE (Alliance for Logistics Innovation through Collaboration in Europe)
-### ERTRAC (European Road Transport Research Advisory Council)
+#### ALICE (Alliance for Logistics Innovation through Collaboration in Europe)
+#### ERTRAC (European Road Transport Research Advisory Council)
 
 - Aumentar a eficiência energética para melhorar a sustentabilidade e a habitabilidade das cidades   
 - Melhorar a confiabilidade dos sistemas, aumentando a satisfação do cliente   
@@ -621,6 +621,13 @@ countdown(minutes = 5, seconds = 00)
 In logistics, the Physical Internet is an open global logistics system founded on physical, digital, and operational interconnectivity, through encapsulation, interfaces and protocols.[1] The Physical Internet is intended to replace current logistical models. The project currently has funding from the National Science Foundation as well as contributions from MHIA and CICMHE.
 
 The Physical Internet Initiative's manifesto is "Transforming the way physical objects are handled, moved, stored, realized, supplied and used, aiming towards global logistics movments, shopping and sustainability."It attempts to achieve this by applying concepts from internet data transfer to real-world shipping processes.
+
+
+---
+
+# Physical Internet
+
+<iframe width="1147" height="645" src="https://www.youtube.com/embed/PJyzFaKOXnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ---
