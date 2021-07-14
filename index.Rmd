@@ -1,9 +1,9 @@
 ---
 title: "Logística"
-subtitle: "Encontros Síncronos 05 e 06"
+subtitle: "Encontros Síncronos 05, 06 e 07"
 author: 
   - <br></br>Renata Oliveira
-date: '30/06/2021 e 07/07/2021'
+date: '30/06/2021, 07/07/2021 e 12/07/2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -91,7 +91,7 @@ xaringanExtra::use_extra_styles(
 
 **Grupo 1:** Caíque Alves França, Diego de Freitas Goes e Silva, Igor Felipe Eduardo Ferreira, Luiz Pedro Xavier Carvalho - Impacto da digitalização nos transportes
 
-**Grupo 2:** Vitor Abrantes, Ana Luiza Cunha, Alexandre Roberto, Gustavo Martins - 
+**Grupo 2:** Vitor Abrantes, Ana Luiza Cunha, Alexandre Roberto, Gustavo Martins - Indústria automotiva
 
 **Grupo 3:** Luis, Joyce e Warlley, André e Gabriel - AMBEV
 
@@ -99,17 +99,15 @@ xaringanExtra::use_extra_styles(
 
 **Grupo 5:** Izabela, Gabrielle, Izabela, Maurício, Raphael e Rosely - Varejo e-commerce
 
-??? 
 
 ]
 ]
 
 ---
-- Mudança dos padrões de consumo
-- Logística reversa
-- Substituição do ser humano por máquinas nas atividades de transportes
-- AI na etapa do pedido - Bot de atendimento por telegram para processamento de pedidos/Bot para fornecedores
-- Amazon - integração de parceiros
+class: middle
+
+## - Impressão 3D
+## - Digital twins
 
 ---
 class: center, middle
@@ -251,6 +249,11 @@ knitr::include_graphics("img/flow.png")
 ``` 
 
 ---
+class: middle, inverse
+
+# Principais desafios...
+
+---
 
 ## Desafios atuais
 
@@ -269,6 +272,48 @@ knitr::include_graphics("img/flow.png")
 **Queda na qualidade de vida das pessoas**
 ]
 ]
+
+---
+class: middle, inverse
+
+# O que tem sido feito?
+
+---
+
+## Objetivos
+### ALICE (Alliance for Logistics Innovation through Collaboration in Europe)
+### ERTRAC (European Road Transport Research Advisory Council)
+
+- Aumentar a eficiência energética para melhorar a sustentabilidade e a habitabilidade das cidades   
+- Melhorar a confiabilidade dos sistemas, aumentando a satisfação do cliente   
+- Aumentar a segurança e a proteção, reduzindo o risco de ferimentos e fatalidades nas vias urbanas   
+
+.center[
+.large[
+**Coordenação com o planejamento das cidades??**]]
+
+---
+## Soluções
+
+- Serviços colaborativos de entrega de última milha com emissão zero/baixa, compartilhada e de crowdsourced   
+- Soluções modulares com unidades interoperáveis e padronizadas para logística de entrega em áreas centrais da cidade   
+- Modelos de colaboração horizontal para compartilhar infraestrutura e ativos    
+- Novos conceitos de centros de consolidação e distribuição   
+- Integração do transporte de carga e de passageiros   
+- Plano logístico urbano sustentável (SULP)  - "estratégia de planejamento holístico para o transporte urbano de mercadorias que garante operações logísticas eficientes e sustentáveis dentro das áreas urbanas".   
+- Plataformas integradas de TI podem aumentar a eficiência no setor de logística [fonte](https://www.rolandberger.com/en/Insights/Publications/Designing-urban-logistics-for-the-future.html)
+
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/new.png")
+``` 
+
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+knitr::include_graphics("img/alice.png")
+``` 
 
 ---
 
@@ -556,6 +601,18 @@ knitr::include_graphics("img/autow.png")
 
 <iframe width="1068" height="601" src="https://www.youtube.com/embed/K7QS1t1tRWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+---
+
+# Digital Twins
+
+[Padlet - link](https://padlet.com/renataoliveira/e2wjcp8rmq1oqv0z)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(countdown)
+
+countdown(minutes = 5, seconds = 00)
+```
 
 ---
 
