@@ -604,7 +604,7 @@ knitr::include_graphics("img/autow.png")
 
 ---
 
-# Digital Twins
+# Digital Twins and Physical Internet
 
 [Padlet - link](https://padlet.com/renataoliveira/e2wjcp8rmq1oqv0z)
 
@@ -642,21 +642,6 @@ The Physical Internet Initiative's manifesto is "Transforming the way physical o
 
 ---
 
-## Logística reversa, logística verde e logística sustentável
-
-Indústria  |                                 Retornos (%)
------------|---------------------------------------------
-Revistas	|	                                   50
-Livros - Editora	     |                 20 - 30
-Livros - Distribuidora      |                10 - 20
-Vendas por catálogo    |                  18 - 35
-CD-ROMS          |                            18 - 25	
-Computadores         |                       10 - 20
-Impressoras           |                           4 - 8
-Automotiva (partes)     |                      4 - 6
-
----
-
 # Digital twins
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
@@ -675,4 +660,18 @@ class: center, middle
 
 .larger[
 **DÚVIDAS?**
+]
+
+---
+
+## Atividades para a semana
+
+- Fechar atividades até Estudos Autônomos 3
+- Visualizar documentos (vídeos e links) nesta apresentação
+
+
+.large[
+.center[
+**SEMANA QUE VEM TEMOS ENCONTROS SEGUNDA E QUARTA!**
+]
 ]
